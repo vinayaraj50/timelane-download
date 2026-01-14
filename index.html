@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeLane - Download for Android</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --background-color: #f8fafc;
+            --text-color: #1e293b;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        main {
+            width: 100%;
+            max-width: 480px;
+            padding: 2rem 1.5rem;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0 0 0.5rem;
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #0f172a;
+        }
+
+        p.description {
+            font-size: 1.125rem;
+            color: #64748b;
+            margin-bottom: 2.5rem;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            font-size: 1.25rem;
+            font-weight: 600;
+            padding: 1rem 2rem;
+            border-radius: 12px;
+            text-decoration: none;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: transform 0.1s ease, box-shadow 0.1s ease;
+            width: 100%;
+            box-sizing: border-box;
+            max-width: 300px;
+        }
+
+        .download-btn:active {
+            transform: translateY(1px);
+            box-shadow: none;
+        }
+
+        .install-guide {
+            margin-top: 3rem;
+            text-align: left;
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 16px;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .install-guide h2 {
+            font-size: 1.25rem;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            color: #334155;
+        }
+
+        .steps {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .step {
+            display: flex;
+            margin-bottom: 1rem;
+            align-items: baseline;
+        }
+
+        .step-number {
+            background: #e2e8f0;
+            color: #475569;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.875rem;
+            font-weight: bold;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+
+        .step-text {
+            color: #475569;
+            line-height: 1.5;
+        }
+
+        .safety-note {
+            margin-top: 2rem;
+            font-size: 0.875rem;
+            color: #64748b;
+            background: #f1f5f9;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 2rem;
+            text-align: center;
+            font-size: 0.875rem;
+            color: #94a3b8;
+        }
+
+        footer a {
+            color: #94a3b8;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>TimeLane</h1>
+        <p class="description">Track your time efficiently.</p>
+
+        <a href="https://github.com/vinayaraj50/timelane-download/releases/download/v1.0-beta/TimeLane-v1.0-beta.apk"
+            class="download-btn">Download App (APK)</a>
+
+        <div class="install-guide">
+            <h2>How to install</h2>
+            <ul class="steps">
+                <li class="step">
+                    <span class="step-number">1</span>
+                    <span class="step-text">Tap <strong>Download App</strong> above.</span>
+                </li>
+                <li class="step">
+                    <span class="step-number">2</span>
+                    <span class="step-text">If your browser warns you, tap <strong>Download anyway</strong>.</span>
+                </li>
+                <li class="step">
+                    <span class="step-number">3</span>
+                    <span class="step-text">Open the downloaded file.</span>
+                </li>
+                <li class="step">
+                    <span class="step-number">4</span>
+                    <span class="step-text">If asked, allow "Install unknown apps" (this is safe).</span>
+                </li>
+                <li class="step">
+                    <span class="step-number">5</span>
+                    <span class="step-text">Tap <strong>Install</strong> to finish.</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="safety-note">
+            <strong>Note:</strong> Android shows a warning for apps downloaded outside the Play Store. TimeLane is safe
+            to install from this page.
+        </div>
+    </main>
+
+    <footer>
+        <p>Version 1.0 Beta</p>
+        <p><a href="https://github.com/vinayaraj50/timelane-download">View source on GitHub</a></p>
+    </footer>
+</body>
+
+</html>
