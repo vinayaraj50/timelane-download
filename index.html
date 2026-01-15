@@ -4,194 +4,357 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TimeLane - Download for Android</title>
+    <title>TimeLane - Premium Productivity Navigation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
     <style>
         :root {
-            --primary-color: #2563eb;
-            --background-color: #f8fafc;
-            --text-color: #1e293b;
-            --card-bg: #ffffff;
+            --bg-base: #11161d;
+            --shadow-light: #1d2531;
+            --shadow-dark: #050709;
+            --accent-cyan: #00f2ff;
+            --text-primary: #f0f6fc;
+            --text-secondary: #8b949e;
+            --glass-bg: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.08);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            cursor: default;
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--background-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 0;
+            font-family: 'Outfit', 'Inter', sans-serif;
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background: radial-gradient(circle at top right, #1a2533 0%, #11161d 100%);
+        }
+
+        /* Neomorphic Utility */
+        .neumorphic-btn {
+            background: var(--bg-base);
+            box-shadow: 6px 6px 12px var(--shadow-dark),
+                -6px -6px 12px var(--shadow-light);
+            border: none;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border-radius: 16px;
+        }
+
+        .neumorphic-btn:hover {
+            box-shadow: inset 4px 4px 8px var(--shadow-dark),
+                inset -4px -4px 8px var(--shadow-light);
+            transform: scale(0.98);
+        }
+
+        /* Glassmorphic Utility */
+        .glass-panel {
+            background: var(--glass-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--glass-border);
+            border-radius: 30px;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
             display: flex;
             flex-direction: column;
             align-items: center;
-            min-height: 100vh;
-        }
-
-        main {
-            width: 100%;
-            max-width: 480px;
-            padding: 2rem 1.5rem;
-            box-sizing: border-box;
+            justify-content: center;
+            padding: 40px 20px;
             text-align: center;
+            position: relative;
         }
 
-        h1 {
-            margin: 0 0 0.5rem;
-            font-size: 2.5rem;
-            font-weight: 800;
-            color: #0f172a;
+        /* Animated Background Elements */
+        .glow-circle {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(0, 242, 255, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+            z-index: -1;
+            filter: blur(40px);
+            animation: float 10s infinite alternate ease-in-out;
         }
 
-        .app-logo {
-            width: 120px;
-            height: 120px;
-            margin-bottom: 1.5rem;
-            border-radius: 24px;
+        @keyframes float {
+            0% {
+                transform: translate(-10%, -10%);
+            }
+
+            100% {
+                transform: translate(10%, 10%);
+            }
+        }
+
+        .hero-card {
+            max-width: 800px;
+            padding: 60px 40px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .logo {
+            width: 140px;
+            height: 140px;
+            margin-bottom: 30px;
+            border-radius: 32px;
+            background: var(--bg-base);
+            padding: 10px;
+            box-shadow: 12px 12px 24px var(--shadow-dark),
+                -12px -12px 24px var(--shadow-light);
+            border: 1px solid var(--glass-border);
             object-fit: contain;
         }
 
-        p.description {
-            font-size: 1.125rem;
-            color: #64748b;
-            margin-bottom: 2.5rem;
+        h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #fff 0%, var(--accent-cyan) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.04em;
         }
 
-        .download-btn {
+        .hero p {
+            font-size: 1.4rem;
+            color: var(--text-secondary);
+            margin-bottom: 45px;
+            max-width: 650px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 300;
+        }
+
+        .btn-download {
             display: inline-block;
-            background-color: var(--primary-color);
-            color: white;
-            font-size: 1.25rem;
-            font-weight: 600;
-            padding: 1rem 2rem;
-            border-radius: 12px;
+            padding: 20px 48px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--accent-cyan);
             text-decoration: none;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-            transition: transform 0.1s ease, box-shadow 0.1s ease;
-            width: 100%;
-            box-sizing: border-box;
-            max-width: 300px;
+            cursor: pointer;
         }
 
-        .download-btn:active {
-            transform: translateY(1px);
-            box-shadow: none;
+        /* Features Section */
+        .features {
+            max-width: 1100px;
+            margin: 0 auto 100px;
+            padding: 0 24px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 40px;
         }
 
-        .install-guide {
-            margin-top: 3rem;
-            text-align: left;
-            background: var(--card-bg);
-            padding: 1.5rem;
-            border-radius: 16px;
-            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-        }
-
-        .install-guide h2 {
-            font-size: 1.25rem;
-            margin-top: 0;
-            margin-bottom: 1rem;
-            color: #334155;
-        }
-
-        .steps {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .step {
+        .feature-card {
+            padding: 40px;
             display: flex;
-            margin-bottom: 1rem;
-            align-items: baseline;
+            flex-direction: column;
+            gap: 20px;
+            transition: transform 0.4s ease;
         }
 
-        .step-number {
-            background: #e2e8f0;
-            color: #475569;
-            width: 24px;
-            height: 24px;
+        .feature-card:hover {
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            width: 70px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--bg-base);
+            border-radius: 20px;
+            box-shadow: 4px 4px 8px var(--shadow-dark),
+                -4px -4px 8px var(--shadow-light);
+        }
+
+        .feature-card h3 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--accent-cyan);
+        }
+
+        .feature-card p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        /* Install Guide Section */
+        .install {
+            max-width: 800px;
+            margin: 0 auto 100px;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .install h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            font-weight: 800;
+        }
+
+        .steps-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            text-align: left;
+        }
+
+        .step-item {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            padding: 24px;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--glass-border);
+        }
+
+        .step-num {
+            width: 45px;
+            height: 45px;
+            background: var(--bg-base);
+            box-shadow: 4px 4px 8px var(--shadow-dark),
+                -4px -4px 8px var(--shadow-light);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 0.875rem;
-            font-weight: bold;
-            margin-right: 12px;
+            font-weight: 800;
+            color: var(--accent-cyan);
             flex-shrink: 0;
         }
 
-        .step-text {
-            color: #475569;
-            line-height: 1.5;
-        }
-
-        .safety-note {
-            margin-top: 2rem;
-            font-size: 0.875rem;
-            color: #64748b;
-            background: #f1f5f9;
-            padding: 1rem;
-            border-radius: 8px;
+        /* Road Separator */
+        .road-separator {
+            height: 4px;
+            background: repeating-linear-gradient(90deg, var(--glass-border) 0%, var(--glass-border) 40px, transparent 40px, transparent 80px);
+            margin: 80px 0;
+            opacity: 0.5;
         }
 
         footer {
-            margin-top: auto;
-            padding: 2rem;
+            padding: 60px 20px;
             text-align: center;
-            font-size: 0.875rem;
-            color: #94a3b8;
+            border-top: 1px solid var(--glass-border);
+            color: var(--text-secondary);
         }
 
         footer a {
-            color: #94a3b8;
-            text-decoration: underline;
+            color: var(--accent-cyan);
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 15px;
+            display: inline-block;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.8rem;
+            }
+
+            .hero-card {
+                padding: 40px 20px;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
         }
     </style>
 </head>
 
 <body>
+
+    <div class="glow-circle" style="top: 10%; right: 10%;"></div>
+    <div class="glow-circle" style="bottom: 10%; left: 10%; animation-delay: -5s;"></div>
+
+    <header class="hero">
+        <div class="hero-card glass-panel">
+            <img src="logo.png" alt="TimeLane Logo" class="logo">
+            <h1>Cruising through Life.</h1>
+            <p>Experience the future of personal navigation. A refined, high-momentum productivity engine designed for
+                the elite navigator.</p>
+
+            <div class="cta">
+                <a href="https://github.com/vinayaraj50/timelane-download/releases/download/v1.0.1-beta/TimeLane-v1.0.1-beta.apk"
+                    class="btn-download neumorphic-btn">
+                    Download for Android (Beta)
+                </a>
+            </div>
+            <p
+                style="margin-top: 30px; font-size: 0.9rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-cyan);">
+                Validated Safety &bull; Open Source</p>
+        </div>
+    </header>
+
+    <div class="road-separator"></div>
+
     <main>
-        <img src="logo.png" alt="TimeLane Logo" class="app-logo">
-        <h1>TimeLane</h1>
-        <p class="description">Track your time efficiently.</p>
+        <section class="features">
+            <div class="feature-card glass-panel">
+                <div class="feature-icon">🛣️</div>
+                <h3>Visual Roadmap</h3>
+                <p>A fluid, highway-inspired interface that transforms time into a scenic route. Navigate your day with
+                    unparalleled clarity and momentum.</p>
+            </div>
 
-        <a href="https://github.com/vinayaraj50/timelane-download/releases/download/v1.0-beta/TimeLane-v1.0-beta.apk"
-            class="download-btn">Download App (APK)</a>
+            <div class="feature-card glass-panel">
+                <div class="feature-icon">🔄</div>
+                <h3>Dynamic Rerouting</h3>
+                <p>When life throws an unexpected exit, TimeLane adjusts instantly. Scale and shift your entire schedule
+                    with a single intuitive action.</p>
+            </div>
 
-        <div class="install-guide">
-            <h2>How to install</h2>
-            <ul class="steps">
-                <li class="step">
-                    <span class="step-number">1</span>
-                    <span class="step-text">Tap <strong>Download App</strong> above.</span>
-                </li>
-                <li class="step">
-                    <span class="step-number">2</span>
-                    <span class="step-text">If your browser warns you, tap <strong>Download anyway</strong>.</span>
-                </li>
-                <li class="step">
-                    <span class="step-number">3</span>
-                    <span class="step-text">Open the downloaded file.</span>
-                </li>
-                <li class="step">
-                    <span class="step-number">4</span>
-                    <span class="step-text">If asked, allow "Install unknown apps" (this is safe).</span>
-                </li>
-                <li class="step">
-                    <span class="step-number">5</span>
-                    <span class="step-text">Tap <strong>Install</strong> to finish.</span>
-                </li>
-            </ul>
-        </div>
+            <div class="feature-card glass-panel">
+                <div class="feature-icon">✨</div>
+                <h3>Natural Flow</h3>
+                <p>Banish the drag of rigid schedules. Move tasks with gestural ease, ensuring your transition from
+                    planning to execution is seamless.</p>
+            </div>
+        </section>
 
-        <div class="safety-note">
-            <strong>Note:</strong> Android shows a warning for apps downloaded outside the Play Store. TimeLane is safe
-            to install from this page.
-        </div>
+        <section class="install glass-panel">
+            <h2>Onboard Instantly</h2>
+            <div class="steps-grid">
+                <div class="step-item">
+                    <div class="step-num">1</div>
+                    <div>Download the executive TimeLane APK from our verified repository.</div>
+                </div>
+                <div class="step-item">
+                    <div class="step-num">2</div>
+                    <div>Enable one-time installation permission for a direct, safe setup.</div>
+                </div>
+                <div class="step-item">
+                    <div class="step-num">3</div>
+                    <div>Launch and begin your journey toward effortless productivity.</div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p>Version 1.0 Beta</p>
-        <p><a href="https://github.com/vinayaraj50/timelane-download">View source on GitHub</a></p>
+        <p>Premium Productivity &bull; v1.0.1-Beta</p>
+        <a href="https://github.com/vinayaraj50/timelane-download">Inspect Source Code</a>
     </footer>
+
 </body>
 
 </html>
