@@ -1,0 +1,317 @@
+Initialized native services in: C:\Users\INV101277\.gradle\native
+Initialized jansi services in: C:\Users\INV101277\.gradle\native
+The client will now receive all logging from the daemon (pid: 28508). The daemon log file: C:\Users\INV101277\.gradle\daemon\9.0-milestone-1\daemon-28508.out.log
+Starting 5th build in daemon [uptime: 1 hrs 6 mins 36.54 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 12 worker leases.
+Now considering [C:\vinayz\personal\CODING\TimeLane] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\vinayz\personal\CODING\TimeLane\settings.gradle.kts'.
+Projects loaded. Root project using build file 'C:\vinayz\personal\CODING\TimeLane\build.gradle.kts'.
+Included projects: [root project 'TimeLane', project ':app']
+
+> Configure project :
+Evaluating root project 'TimeLane' using build file 'C:\vinayz\personal\CODING\TimeLane\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '8.2.2', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '1.9.22', apply: false]
+Resolved plugin [id: 'com.google.devtools.ksp', version: '1.9.22-1.0.17', apply: false]
+Resolved plugin [id: 'com.google.dagger.hilt.android', version: '2.50', apply: false]
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\vinayz\personal\CODING\TimeLane\app\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application']
+Resolved plugin [id: 'org.jetbrains.kotlin.android']
+Resolved plugin [id: 'com.google.devtools.ksp']
+Resolved plugin [id: 'com.google.dagger.hilt.android']
+Using default execution profile
+Using Kotlin Gradle Plugin gradle82 variant
+All projects evaluated.
+Task name matched 'assembleDebug'
+Selected primary task 'assembleDebug' from project :
+Tasks to be executed: [task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:checkDebugAarMetadata', task ':app:generateDebugResValues', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:kspDebugKotlin', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':app:mergeDebugAssets', task ':app:compressDebugAssets', task ':app:hiltAggregateDepsDebug', task ':app:hiltJavaCompileDebug', task ':app:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:desugarDebugFileDependencies', task ':app:mergeExtDexDebug', task ':app:mergeLibDexDebug', task ':app:transformDebugClassesWithAsm', task ':app:dexBuilderDebug', task ':app:mergeProjectDexDebug', task ':app:mergeDebugJniLibFolders', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug']
+Tasks that were excluded: []
+Resolve mutations for :app:preBuild (Thread[#645,Execution worker,5,main]) started.
+:app:preBuild (Thread[#645,Execution worker,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#645,Execution worker,5,main]) started.
+:app:preDebugBuild (Thread[#645,Execution worker,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[#645,Execution worker,5,main]) started.
+:app:mergeDebugNativeDebugMetadata (Thread[#645,Execution worker,5,main]) started.
+
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[#645,Execution worker,5,main]) started.
+:app:checkKotlinGradlePluginConfigurationErrors (Thread[#645,Execution worker,5,main]) started.
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+Caching disabled for task ':app:checkKotlinGradlePluginConfigurationErrors' because:
+  Build cache is disabled
+Task ':app:checkKotlinGradlePluginConfigurationErrors' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[#645,Execution worker,5,main]) started.
+:app:checkDebugAarMetadata (Thread[#645,Execution worker,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :app:generateDebugResValues (Thread[#645,Execution worker,5,main]) started.
+:app:generateDebugResValues (Thread[#645,Execution worker,5,main]) started.
+
+> Task :app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#645,Execution worker,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[#645,Execution worker,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:generateDebugResources (Thread[#645,Execution worker,5,main]) started.
+:app:generateDebugResources (Thread[#645,Execution worker,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Skipping task ':app:generateDebugResources' as it has no actions.
+Resolve mutations for :app:mergeDebugResources (Thread[#645,Execution worker,5,main]) started.
+:app:mergeDebugResources (Thread[#645,Execution worker,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#645,Execution worker,5,main]) started.
+:app:packageDebugResources (Thread[#645,Execution worker,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#645,Execution worker,5,main]) started.
+:app:parseDebugLocalResources (Thread[#645,Execution worker,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#645,Execution worker,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[#645,Execution worker,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[#645,Execution worker,5,main]) started.
+:app:extractDeepLinksDebug (Thread[#645,Execution worker,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :app:processDebugMainManifest (Thread[#645,Execution worker,5,main]) started.
+:app:processDebugMainManifest (Thread[#645,Execution worker,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[#645,Execution worker,5,main]) started.
+:app:processDebugManifest (Thread[#645,Execution worker,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[#645,Execution worker,5,main]) started.
+:app:processDebugManifestForPackage (Thread[#645,Execution worker,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Custom actions are attached to task ':app:processDebugManifestForPackage'.
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+Resolve mutations for :app:processDebugResources (Thread[#645,Execution worker,5,main]) started.
+:app:processDebugResources (Thread[#645,Execution worker,5,main]) started.
+
+> Task :app:processDebugResources UP-TO-DATE
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugResources' as it is up-to-date.
+Resolve mutations for :app:kspDebugKotlin (Thread[#645,Execution worker,5,main]) started.
+:app:kspDebugKotlin (Thread[#645,Execution worker,5,main]) started.
+Resolve mutations for :app:javaPreCompileDebug (Thread[#644,included builds,5,main]) started.
+:app:javaPreCompileDebug (Thread[#644,included builds,5,main]) started.
+
+> Task :app:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':app:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':app:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :app:mergeDebugShaders (Thread[#644,included builds,5,main]) started.
+:app:mergeDebugShaders (Thread[#644,included builds,5,main]) started.
+
+> Task :app:mergeDebugShaders UP-TO-DATE
+Caching disabled for task ':app:mergeDebugShaders' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugShaders' as it is up-to-date.
+Resolve mutations for :app:compileDebugShaders (Thread[#644,included builds,5,main]) started.
+:app:compileDebugShaders (Thread[#644,included builds,5,main]) started.
+
+> Task :app:compileDebugShaders NO-SOURCE
+Skipping task ':app:compileDebugShaders' as it has no source files and no previous output files.
+Resolve mutations for :app:generateDebugAssets (Thread[#644,included builds,5,main]) started.
+:app:generateDebugAssets (Thread[#644,included builds,5,main]) started.
+
+> Task :app:generateDebugAssets UP-TO-DATE
+Skipping task ':app:generateDebugAssets' as it has no actions.
+Resolve mutations for :app:mergeDebugAssets (Thread[#644,included builds,5,main]) started.
+:app:mergeDebugAssets (Thread[#644,included builds,5,main]) started.
+
+> Task :app:mergeDebugAssets UP-TO-DATE
+Caching disabled for task ':app:mergeDebugAssets' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugAssets' as it is up-to-date.
+Resolve mutations for :app:compressDebugAssets (Thread[#644,included builds,5,main]) started.
+:app:compressDebugAssets (Thread[#644,included builds,5,main]) started.
+
+> Task :app:compressDebugAssets UP-TO-DATE
+Caching disabled for task ':app:compressDebugAssets' because:
+  Build cache is disabled
+Skipping task ':app:compressDebugAssets' as it is up-to-date.
+Resolve mutations for :app:checkDebugDuplicateClasses (Thread[#644,included builds,5,main]) started.
+:app:checkDebugDuplicateClasses (Thread[#644,included builds,5,main]) started.
+
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+Caching disabled for task ':app:checkDebugDuplicateClasses' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugDuplicateClasses' as it is up-to-date.
+Resolve mutations for :app:desugarDebugFileDependencies (Thread[#644,included builds,5,main]) started.
+:app:desugarDebugFileDependencies (Thread[#644,included builds,5,main]) started.
+
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+Caching disabled for task ':app:desugarDebugFileDependencies' because:
+  Build cache is disabled
+Skipping task ':app:desugarDebugFileDependencies' as it is up-to-date.
+Resolve mutations for :app:mergeExtDexDebug (Thread[#644,included builds,5,main]) started.
+:app:mergeExtDexDebug (Thread[#644,included builds,5,main]) started.
+
+> Task :app:mergeExtDexDebug UP-TO-DATE
+Caching disabled for task ':app:mergeExtDexDebug' because:
+  Build cache is disabled
+Skipping task ':app:mergeExtDexDebug' as it is up-to-date.
+Resolve mutations for :app:mergeLibDexDebug (Thread[#644,included builds,5,main]) started.
+:app:mergeLibDexDebug (Thread[#653,Execution worker Thread 9,5,main]) started.
+
+> Task :app:mergeLibDexDebug UP-TO-DATE
+Caching disabled for task ':app:mergeLibDexDebug' because:
+  Build cache is disabled
+Skipping task ':app:mergeLibDexDebug' as it is up-to-date.
+Resolve mutations for :app:mergeDebugJniLibFolders (Thread[#653,Execution worker Thread 9,5,main]) started.
+:app:mergeDebugJniLibFolders (Thread[#653,Execution worker Thread 9,5,main]) started.
+
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+Caching disabled for task ':app:mergeDebugJniLibFolders' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugJniLibFolders' as it is up-to-date.
+Resolve mutations for :app:mergeDebugNativeLibs (Thread[#653,Execution worker Thread 9,5,main]) started.
+:app:mergeDebugNativeLibs (Thread[#653,Execution worker Thread 9,5,main]) started.
+
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+Skipping task ':app:mergeDebugNativeLibs' as it has no source files and no previous output files.
+Resolve mutations for :app:stripDebugDebugSymbols (Thread[#653,Execution worker Thread 9,5,main]) started.
+:app:stripDebugDebugSymbols (Thread[#653,Execution worker Thread 9,5,main]) started.
+
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+Skipping task ':app:stripDebugDebugSymbols' as it has no source files and no previous output files.
+Resolve mutations for :app:validateSigningDebug (Thread[#653,Execution worker Thread 9,5,main]) started.
+:app:validateSigningDebug (Thread[#653,Execution worker Thread 9,5,main]) started.
+
+> Task :app:validateSigningDebug UP-TO-DATE
+Caching disabled for task ':app:validateSigningDebug' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:validateSigningDebug' as it is up-to-date.
+Resolve mutations for :app:writeDebugAppMetadata (Thread[#653,Execution worker Thread 9,5,main]) started.
+:app:writeDebugAppMetadata (Thread[#653,Execution worker Thread 9,5,main]) started.
+
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+Caching disabled for task ':app:writeDebugAppMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:writeDebugAppMetadata' as it is up-to-date.
+Resolve mutations for :app:writeDebugSigningConfigVersions (Thread[#653,Execution worker Thread 9,5,main]) started.
+:app:writeDebugSigningConfigVersions (Thread[#653,Execution worker Thread 9,5,main]) started.
+
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+Caching disabled for task ':app:writeDebugSigningConfigVersions' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:writeDebugSigningConfigVersions' as it is up-to-date.
+
+> Task :app:kspDebugKotlin FAILED
+file or directory 'C:\vinayz\personal\CODING\TimeLane\app\src\debug\kotlin', not found
+file or directory 'C:\vinayz\personal\CODING\TimeLane\app\src\debug\java', not found
+file or directory 'C:\vinayz\personal\CODING\TimeLane\app\src\main\java', not found
+file or directory 'C:\vinayz\personal\CODING\TimeLane\app\src\debug\kotlin', not found
+file or directory 'C:\vinayz\personal\CODING\TimeLane\app\src\debug\java', not found
+file or directory 'C:\vinayz\personal\CODING\TimeLane\app\src\main\java', not found
+Caching disabled for task ':app:kspDebugKotlin' because:
+  Build cache is disabled
+Task ':app:kspDebugKotlin' is not up-to-date because:
+  Input property 'sources' file C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\presentation\calendar\components\EventPopup.kt has changed.
+file or directory 'C:\vinayz\personal\CODING\TimeLane\app\src\debug\kotlin', not found
+file or directory 'C:\vinayz\personal\CODING\TimeLane\app\src\debug\java', not found
+file or directory 'C:\vinayz\personal\CODING\TimeLane\app\src\main\java', not found
+file or directory 'C:\vinayz\personal\CODING\TimeLane\app\src\debug\kotlin', not found
+file or directory 'C:\vinayz\personal\CODING\TimeLane\app\src\debug\java', not found
+file or directory 'C:\vinayz\personal\CODING\TimeLane\app\src\main\java', not found
+file or directory 'C:\vinayz\personal\CODING\TimeLane\app\src\debug\kotlin', not found
+file or directory 'C:\vinayz\personal\CODING\TimeLane\app\src\debug\java', not found
+file or directory 'C:\vinayz\personal\CODING\TimeLane\app\src\main\java', not found
+file or directory 'C:\vinayz\personal\CODING\TimeLane\app\src\debug\kotlin', not found
+file or directory 'C:\vinayz\personal\CODING\TimeLane\app\src\debug\java', not found
+file or directory 'C:\vinayz\personal\CODING\TimeLane\app\src\main\java', not found
+Kotlin source files: C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\core\di\AppModule.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\core\gesture\GestureHandler.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\core\sound\SoundManager.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\core\sound\SoundPreferences.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\core\theme\TimeLaneTheme.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\core\theme\TimeTheme.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\core\undo\UndoManager.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\data\local\Converters.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\data\local\EventDao.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\data\local\EventEntity.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\data\local\TaskDao.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\data\local\TaskEntity.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\data\local\TimeLaneDatabase.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\data\mapper\Mappers.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\data\repository\EventRepositoryImpl.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\data\repository\TaskRepositoryImpl.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\domain\model\Event.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\domain\model\Task.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\domain\repository\EventRepository.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\domain\repository\TaskRepository.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\MainActivity.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\presentation\calendar\CalendarScreen.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\presentation\calendar\CalendarViewModel.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\presentation\calendar\components\CarIndicator.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\presentation\calendar\components\EventPopup.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\presentation\calendar\components\RoadCanvas.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\presentation\calendar\components\TimeSlider.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\presentation\main\DragAndDropController.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\presentation\main\MainScreen.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\presentation\main\SplitPane.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\presentation\task\components\TaskItem.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\presentation\task\components\TaskPopup.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\presentation\task\TaskPreferences.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\presentation\task\TaskScreen.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\presentation\task\TaskViewModel.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\TimeLaneApp.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\widget\TimeLaneWidget.kt, C:\vinayz\personal\CODING\TimeLane\app\src\main\kotlin\com\timelane\widget\WidgetReceiver.kt
+Java source files: 
+Script source files: 
+Script file extensions: 
+[KOTLIN] Kotlin compilation 'jdkHome' argument: null
+i: found daemon on port 17743 (3896131 ms old), trying to connect
+i: connected to the daemon
+i: [ksp] loaded provider(s): [androidx.room.RoomKspProcessor$Provider, dagger.hilt.processor.internal.uninstallmodules.KspUninstallModulesProcessor$Provider, dagger.hilt.processor.internal.earlyentrypoint.KspEarlyEntryPointProcessor$Provider, dagger.hilt.processor.internal.root.KspComponentTreeDepsProcessor$Provider, dagger.hilt.android.processor.internal.bindvalue.KspBindValueProcessor$Provider, dagger.hilt.processor.internal.generatesrootinput.KspGeneratesRootInputProcessor$Provider, dagger.hilt.processor.internal.aliasof.KspAliasOfProcessor$Provider, dagger.hilt.processor.internal.aggregateddeps.KspAggregatedDepsProcessor$Provider, dagger.hilt.processor.internal.root.KspRootProcessor$Provider, dagger.hilt.processor.internal.originatingelement.KspOriginatingElementProcessor$Provider, dagger.hilt.processor.internal.definecomponent.KspDefineComponentProcessor$Provider, dagger.hilt.android.processor.internal.viewmodel.KspViewModelProcessor$Provider, dagger.hilt.android.processor.internal.customtestapplication.KspCustomTestApplicationProcessor$Provider, dagger.hilt.android.processor.internal.androidentrypoint.KspAndroidEntryPointProcessor$Provider, dagger.internal.codegen.KspComponentProcessor$Provider]
+e: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/calendar/components/EventPopup.kt:446:2 Expecting '}'
+
+[Incubating] Problems report is available at: file:///C:/vinayz/personal/CODING/TimeLane/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:kspDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.0-milestone-1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 3s
+26 actionable tasks: 2 executed, 24 up-to-date
+Watched directory hierarchies: [C:\vinayz\personal\CODING\TimeLane]

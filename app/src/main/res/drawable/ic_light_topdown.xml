@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+  <!-- Light Pool (Multiple layers for falloff) -->
+  <!-- Outer weak glow -->
+  <path
+      android:pathData="M100,100 m-90,0 a90,90 0 1,1 180,0 a90,90 0 1,1 -180,0"
+      android:fillColor="#1AFFF176"/> <!-- Very Low Alpha Yellow -->
+  
+  <!-- Mid glow -->
+  <path
+      android:pathData="M100,100 m-60,0 a60,60 0 1,1 120,0 a60,60 0 1,1 -120,0"
+      android:fillColor="#33FFF176"/> <!-- Low Alpha Yellow -->
+
+  <!-- Core glow -->
+  <path
+      android:pathData="M100,100 m-30,0 a30,30 0 1,1 60,0 a30,30 0 1,1 -60,0"
+      android:fillColor="#66FFF176"/> <!-- Mid Alpha Yellow -->
+
+  <!-- Lamp Post Arm (Dark Stick going off canvas usually, but here centered) -->
+  <path
+      android:pathData="M100,100 L160,100"
+      android:strokeColor="#424242"
+      android:strokeWidth="6"
+      android:strokeLineCap="round"/>
+
+  <!-- Lamp Housing Head (Top Down Rect/Oval) -->
+  <path
+      android:pathData="M85,90 L115,90 L120,110 L80,110 Z"
+      android:fillColor="#616161"/>
+      
+  <!-- Lamp Bulb (Bright Center) -->
+  <path
+      android:pathData="M95,95 L105,95 L108,105 L92,105 Z"
+      android:fillColor="#FFFFFF"/>
+
+</vector>

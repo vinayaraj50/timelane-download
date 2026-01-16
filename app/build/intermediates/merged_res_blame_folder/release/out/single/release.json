@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "com.timelane.app-merged_res-65:/drawable_ic_tree_topdown.xml.flat",
+        "source": "com.timelane.app-main-66:/drawable/ic_tree_topdown.xml"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/drawable_ic_shop_rooftop.xml.flat",
+        "source": "com.timelane.app-main-66:/drawable/ic_shop_rooftop.xml"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/xml_time_lane_widget_info.xml.flat",
+        "source": "com.timelane.app-main-66:/xml/time_lane_widget_info.xml"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.timelane.app-main-66:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/drawable_ic_light_topdown.xml.flat",
+        "source": "com.timelane.app-main-66:/drawable/ic_light_topdown.xml"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/raw_melodical_flute_music_notification.wav.flat",
+        "source": "com.timelane.app-main-66:/raw/melodical_flute_music_notification.wav"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/drawable_ic_launcher_foreground_scaled.xml.flat",
+        "source": "com.timelane.app-main-66:/drawable/ic_launcher_foreground_scaled.xml"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/xml_backup_rules.xml.flat",
+        "source": "com.timelane.app-main-66:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/drawable_ic_app_logo.png.flat",
+        "source": "com.timelane.app-main-66:/drawable/ic_app_logo.png"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/raw_confirmation_tone.wav.flat",
+        "source": "com.timelane.app-main-66:/raw/confirmation_tone.wav"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/layout_widget_loading.xml.flat",
+        "source": "com.timelane.app-main-66:/layout/widget_loading.xml"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.timelane.app-main-66:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.timelane.app-main-66:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/raw_bell_notification.wav.flat",
+        "source": "com.timelane.app-main-66:/raw/bell_notification.wav"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/drawable_ic_car_topdown.xml.flat",
+        "source": "com.timelane.app-main-66:/drawable/ic_car_topdown.xml"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/font_timelane_font.ttf.flat",
+        "source": "com.timelane.app-main-66:/font/timelane_font.ttf"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/drawable_ic_car_new.png.flat",
+        "source": "com.timelane.app-main-66:/drawable/ic_car_new.png"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.timelane.app-main-66:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/xml_data_extraction_rules.xml.flat",
+        "source": "com.timelane.app-main-66:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/drawable_bg_road.jpg.flat",
+        "source": "com.timelane.app-main-66:/drawable/bg_road.jpg"
+    },
+    {
+        "merged": "com.timelane.app-merged_res-65:/drawable_ic_skateboarder.png.flat",
+        "source": "com.timelane.app-main-66:/drawable/ic_skateboarder.png"
+    }
+]

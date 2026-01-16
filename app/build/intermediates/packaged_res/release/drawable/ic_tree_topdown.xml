@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+  <!-- Deep Shadow (Offset) -->
+  <path
+      android:pathData="M70,70 C100,70 115,95 105,115 C95,135 60,110 50,115 C20,130 15,100 25,75 Z"
+      android:fillColor="#1A000000"/>
+
+  <!-- Base Canopy (Dark Green - Irregular Amoeba Shape) -->
+  <path
+      android:pathData="M60,10 C85,12 105,30 112,55 C118,75 105,95 90,108 C75,120 45,118 30,105 C15,90 5,65 12,40 C20,15 40,8 60,10 Z"
+      android:fillColor="#2E7D32"/>
+
+  <!-- Mid Canopy Layer (Standard Green - Textured clumps) -->
+  <!-- Top Right Clump -->
+  <path
+      android:pathData="M65,15 C80,15 95,25 98,40 C102,55 90,65 75,60 C65,55 55,40 65,15 Z"
+      android:fillColor="#388E3C"/>
+  <!-- Bottom Left Clump -->
+  <path
+      android:pathData="M30,50 C45,45 60,55 65,75 C70,95 50,110 35,105 C20,100 15,70 30,50 Z"
+      android:fillColor="#388E3C"/>
+  <!-- Bottom Right Clump -->
+  <path
+      android:pathData="M70,60 C90,60 105,75 100,95 C95,110 75,105 70,90 C65,80 60,70 70,60 Z"
+      android:fillColor="#388E3C"/>
+
+  <!-- Highlight Canopy Layer (Light Green - Topmost leaves) -->
+  <path
+      android:pathData="M40,25 C55,20 70,30 65,50 C60,65 40,70 30,60 C20,50 25,30 40,25 Z"
+      android:fillColor="#4CAF50"/>
+  <path
+      android:pathData="M80,35 C90,35 95,45 92,55 C88,65 75,60 75,50 C75,40 75,35 80,35 Z"
+      android:fillColor="#4CAF50"/>
+
+</vector>

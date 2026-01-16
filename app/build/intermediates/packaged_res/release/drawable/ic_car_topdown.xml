@@ -1,0 +1,54 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="220dp"
+    android:viewportWidth="120"
+    android:viewportHeight="220">
+
+  <!-- Car Shadow -->
+  <path
+      android:pathData="M20,30 L100,30 L110,40 L110,190 L100,200 L20,200 L10,190 L10,40 Z"
+      android:fillColor="#33000000"/>
+
+  <!-- Main Body (Generic Sedan Shape) -->
+  <path
+      android:pathData="M15,30 C30,10 90,10 105,30 L110,50 L110,180 L105,200 C90,215 30,215 15,200 L10,180 L10,50 Z"
+      android:fillColor="#ECEFF1"/>
+
+  <!-- Windshield (Tapered) -->
+  <path
+      android:pathData="M20,60 L100,60 L95,85 L25,85 Z"
+      android:fillColor="#263238"/>
+
+  <!-- Roof Panel (Main canvas for Time Text) -->
+  <path
+      android:pathData="M22,88 L98,88 L98,162 L22,162 Z"
+      android:fillColor="#FAFAFA"/> <!-- Bright White for contrast -->
+
+  <!-- Rear Window -->
+  <path
+      android:pathData="M25,165 L95,165 L100,185 L20,185 Z"
+      android:fillColor="#263238"/>
+
+  <!-- Side Mirrors -->
+  <path
+      android:pathData="M10,65 L2,62 L2,75 L10,72 Z"
+      android:fillColor="#CFD8DC"/>
+  <path
+      android:pathData="M110,65 L118,62 L118,75 L110,72 Z"
+      android:fillColor="#CFD8DC"/>
+      
+  <!-- Hood Detailing -->
+  <path
+      android:pathData="M30,30 L30,58 M90,30 L90,58"
+      android:strokeColor="#B0BEC5"
+      android:strokeWidth="1"/>
+
+  <!-- Red Tail Lights -->
+  <path
+      android:pathData="M15,200 L35,200 L35,205 L15,205 Z"
+      android:fillColor="#D32F2F"/>
+  <path
+      android:pathData="M85,200 L105,200 L105,205 L85,205 Z"
+      android:fillColor="#D32F2F"/>
+
+</vector>

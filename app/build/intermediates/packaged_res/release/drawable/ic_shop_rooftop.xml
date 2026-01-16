@@ -1,0 +1,63 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="200dp"
+    android:viewportWidth="160"
+    android:viewportHeight="200">
+
+  <!-- Building Base (Concrete Roof) -->
+  <path
+      android:pathData="M10,10 L150,10 L150,190 L10,190 Z"
+      android:fillColor="#546E7A"/>
+
+  <!-- Parapet Wall (Dark Border) -->
+  <path
+      android:pathData="M10,10 L150,10 L150,190 L10,190 Z"
+      android:strokeColor="#37474F"
+      android:strokeWidth="6"/>
+
+  <!-- Variation Patch (Different roofing material patch) -->
+  <path
+      android:pathData="M10,10 L80,10 L80,100 L10,100 Z"
+      android:fillColor="#607D8B"
+      android:fillAlpha="0.3"/>
+
+  <!-- Large HVAC Unit (Metal Box) -->
+  <path
+      android:pathData="M90,30 L130,30 L130,80 L90,80 Z"
+      android:fillColor="#CFD8DC"/>
+  <!-- HVAC Fan Circle -->
+  <path
+      android:pathData="M110,55 m-15,0 a15,15 0 1,1 30,0 a15,15 0 1,1 -30,0"
+      android:strokeColor="#90A4AE"
+      android:strokeWidth="2"/>
+  <!-- HVAC Grills -->
+  <path
+      android:pathData="M100,55 L120,55 M110,45 L110,65"
+      android:strokeColor="#90A4AE"
+      android:strokeWidth="1"/>
+
+  <!-- Industrial Skylight (Blue Tint) -->
+  <path
+      android:pathData="M30,120 L70,120 L70,170 L30,170 Z"
+      android:fillColor="#81D4FA"/>
+  <!-- Skylight Frame -->
+  <path
+      android:pathData="M30,120 L70,120 L70,170 L30,170 Z"
+      android:strokeColor="#0288D1"
+      android:strokeWidth="2"/>
+  <!-- Glazing bars -->
+  <path
+      android:pathData="M50,120 L50,170 M30,145 L70,145"
+      android:strokeColor="#0288D1"
+      android:strokeAlpha="0.5"
+      android:strokeWidth="1"/>
+
+  <!-- Small Vents -->
+  <path
+      android:pathData="M100,140 L120,140 L120,160 L100,160 Z"
+      android:fillColor="#78909C"/>
+  <path
+      android:pathData="M110,150 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"
+      android:fillColor="#37474F"/>
+
+</vector>

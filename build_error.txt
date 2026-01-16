@@ -1,0 +1,57 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.0-milestone-1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :app:clean
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugResValues
+> Task :app:checkDebugAarMetadata
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:parseDebugLocalResources
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugResources
+> Task :app:kspDebugKotlin
+
+> Task :app:compileDebugKotlin
+e: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/calendar/components/EventPopup.kt:167:71 Unresolved reference: size
+e: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/calendar/components/EventPopup.kt:168:40 Unresolved reference: width
+e: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/calendar/components/RoadCanvas.kt:302:38 Unresolved reference: timeLaneWidth
+e: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/task/TaskScreen.kt:134:54 Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public val Icons.Filled.MyLocation: ImageVector defined in androidx.compose.material.icons.filled
+e: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/task/components/TaskItem.kt:12:42 Conflicting import, imported name 'RoundedCornerShape' is ambiguous
+e: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/task/components/TaskItem.kt:22:42 Conflicting import, imported name 'RoundedCornerShape' is ambiguous
+e: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/task/components/TaskItem.kt:93:78 Unresolved reference: Check
+e: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/task/components/TaskItem.kt:122:70 Unresolved reference: ChevronRight
+
+> Task :app:compileDebugKotlin FAILED
+
+[Incubating] Problems report is available at: file:///C:/vinayz/personal/CODING/TimeLane/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.0-milestone-1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 37s
+16 actionable tasks: 16 executed

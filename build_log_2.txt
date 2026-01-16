@@ -1,0 +1,42 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.0-milestone-1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:kspDebugKotlin
+
+> Task :app:compileDebugKotlin
+w: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/calendar/components/EventPopup.kt:58:5 Parameter 'onDeleteAndPull' is never used
+w: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/calendar/components/RoadCanvas.kt:80:5 Parameter 'onEventAdd' is never used
+w: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/calendar/components/RoadCanvas.kt:86:5 Parameter 'currentDate' is never used
+w: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/calendar/components/RoadCanvas.kt:241:29 Variable 'dragStarted' is never used
+w: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/calendar/components/RoadCanvas.kt:468:30 Variable 'baseColor' is never used
+w: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/task/TaskScreen.kt:75:5 Parameter 'snackbarHostState' is never used
+w: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/task/TaskScreen.kt:95:9 Variable 'scope' is never used
+w: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/task/TaskScreen.kt:491:81 Parameter 'index' is never used, could be renamed to _
+w: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/task/TaskScreen.kt:584:5 Parameter 'theme' is never used
+w: file:///C:/vinayz/personal/CODING/TimeLane/app/src/main/kotlin/com/timelane/presentation/task/components/TaskItem.kt:61:5 Parameter 'onDelete' is never used
+
+[Incubating] Problems report is available at: file:///C:/vinayz/personal/CODING/TimeLane/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.0-milestone-1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 37s
+15 actionable tasks: 3 executed, 12 up-to-date
